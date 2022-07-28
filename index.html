@@ -11,6 +11,14 @@
 <body>
     <h1>quizz sur les merguez</h1>
     <p>venez tester vos connaissances pour savoir si vous etes un roi de la merguez ou une chipolata trop cuite</p>
+    <a href="">pour voir les meilleurs scores, cliquez ici</a>
+    <div class="start" id="start">
+        <div></div>
+        <div>
+            <button class="startButton"onclick="startGame()">
+            <h2>are you ready?</h2></button>
+        </div>
+
 <div class="question" id="question1">
     <div class="question">
         <p>ou a été inventée la merguez?</p>
@@ -33,6 +41,7 @@
         </button>
     </div>
 </div>
+
 <div class="question" id="question2">
     <div class="question">
         <p>quelle épice est utilisée?</p>
@@ -49,7 +58,7 @@
     <div class="response">
         <input type="radio" name="response" id="response2_4">gingembre  
     </div>
-    <div class="NextQuestion">
+    <div class="NextQuestion" onclick="showQuestion3()">
         <button class="buttonNext">
             next
         </button>
@@ -57,29 +66,30 @@
 
 <div class="question" id="question3">
     <div class="question">
-        <p>quelle épice est utilisée?</p>
+        <p>quel est le mélange de viandes traditionnelles? </p>
     </div>
     <div class="response">
-        <input type="radio" name="response" id="response3_1">poivre
+        <input type="radio" name="response" id="response3_1">celui fait par Hannibal
+        Lecter (fèves, coeur de prisonnier et Chianti)
     </div>
     <div class="response">
-        <input type="radio" name="response" id="response3_2">wasabi
+        <input type="radio" name="response" id="response3_2">boeuf et mouton
     </div>
     <div class="response">
-        <input type="radio" name="response" id="response3_3">harissa
+        <input type="radio" name="response" id="response3_3">kebab boeuf/poulet
     </div>
     <div class="response">
-        <input type="radio" name="response" id="response3_4">gingembre  
+        <input type="radio" name="response" id="response3_4">chèvre et poulet
     </div>
     <div class="NextQuestion">
-        <button class="buttonNext">
+        <button class="buttonNext" onclick="showQuestion4()">
             next
         </button>
 </div>
 
 <div class="question" id="question4">
     <div class="question">
-        <p>quelle épice est utilisée?</p>
+        <p>com bien de temps faut-il pour la cuire au barbecue</p>
     </div>
     <div class="response">
         <input type="radio" name="response" id="response4_1">poivre
@@ -94,7 +104,7 @@
         <input type="radio" name="response" id="response4_4">gingembre  
     </div>
     <div class="NextQuestion">
-        <button class="buttonNext">
+        <button class="buttonNext" onclick="showQuestion5()">
             next
         </button>
 </div>
@@ -120,16 +130,18 @@
             next
         </button>
 </div>
+
 <div class="buttonSendResponse">
     <div>
 
     </div>
-    <button>
-        soumettre la réponse
-    </button>
+        <button>
+            soumettre la réponse
+        </button>
     <div>
 
     </div>
 </div>
+
 </body>
 </html>

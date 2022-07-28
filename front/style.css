@@ -23,10 +23,21 @@ button:hover {
     background-color: green;
     color: black;
 }
-.buttonSendResponse {
+.buttonSendResponse, .start {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-#question2 {
+#question1, #question2, #question3, #question4, #question5 {
     visibility: hidden;
 }
+
+a {
+    color: green;
+}
+.startButton {
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+}
+/*ajouter font https://fonts.google.com/specimen/Press+Start+2P?query=2P#standard-styles*/
