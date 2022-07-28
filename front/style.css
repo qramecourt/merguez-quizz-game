@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     background-color: black;
 }
-h1, p, .response {
+.response{
+    color: green;
+    font-family: 'Press Start 2P', cursive;
+}
+h1, p {
     text-align: center;
     color: green;
+    font-family: 'Press Start 2P', cursive;
 }
 .question {
     row-gap: 10px;
@@ -23,7 +29,7 @@ button:hover {
     background-color: green;
     color: black;
 }
-.buttonSendResponse, .start {
+.buttonSendResponse {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -33,11 +39,35 @@ button:hover {
 
 a {
     color: green;
+    font-family: 'Press Start 2P', cursive;
 }
 .startButton {
     width: 100vh;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 0;
 }
-/*ajouter font https://fonts.google.com/specimen/Press+Start+2P?query=2P#standard-styles*/
+.backIndex:hover {
+    color: black;
+}
+
+
+table, td {
+    border: 1px solid green;
+    color: green;
+    font-family: 'Press Start 2P', cursive;
+}
+
+thead {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+button a{
+    font-style: inherit;
+    font-weight: bolder;
+}
+button {
+    font-family: 'Press Start 2P';
+}
