@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+h1, p, .response {
+    text-align: center;
+    color: green;
+}
+.question {
+    row-gap: 10px;
+}
+.response:hover {
+    border: 1px solid green;
+}
+button {
+    color: green;
+    border: 1px solid green;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    border-radius: 25%;
+}
+button:hover {
+    background-color: green;
+    color: black;
+}
+.buttonSendResponse {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#question2 {
+    visibility: hidden;
+}
